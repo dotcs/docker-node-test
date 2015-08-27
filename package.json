@@ -1,0 +1,14 @@
+{
+  "name": "docker-node-test",
+  "version": "1.0.0",
+  "description": "Repo to test nodejs applications in a Docker container",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Fabian Mueller",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
